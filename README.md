@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/epjuan21/FrontEndMentorProductPreviewCardComponent)
-- Live Site URL: [Add live site URL here](https://epjuan21.github.io/FrontEndMentorProductPreviewCardComponent/)
+- Solution URL: [https://github.com/epjuan21/FrontEndMentorProductPreviewCardComponent](https://github.com/epjuan21/FrontEndMentorProductPreviewCardComponent)
+- Live Site URL: [https://epjuan21.github.io/FrontEndMentorProductPreviewCardComponent/](https://epjuan21.github.io/FrontEndMentorProductPreviewCardComponent/)
 
 ## My process
 
