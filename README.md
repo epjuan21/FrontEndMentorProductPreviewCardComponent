@@ -50,5 +50,5 @@ Place background images and use media queries
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/epjuan21)
-- Twitter - [@yourusername](https://twitter.com/epjuan)
+- Frontend Mentor - [@epjuan21](https://www.frontendmentor.io/profile/epjuan21)
+- Twitter - [@epjuan](https://twitter.com/epjuan)
