@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px
+}
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --darker-cyan: hsl(158, 50%, 20%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cream);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-container {
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 400px;
+    min-width: 400px;
+}
+
+@media (min-width: 768px) {
+    .card-container {
+        flex-direction: row;
+        width: 700px;
+    }
+}
+
+@media (min-width: 768px) {
+    .image {
+        width: 350px;
+    }
+}
+
+.image img {
+    width: 100%;
+    background-image: url('./images/image-product-mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;    
+    background-size: cover;
+    height: 279px;
+}
+
+@media (min-width: 768px) {
+    .image img {
+        background-image: url('./images/image-product-desktop.jpg');
+        background-position: center center;
+        display: block;
+        height: 100%;
+    }
+}
+
+.text {
+    padding: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    .text {
+        width: 350px;
+    }
+}
+
+.type {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--dark-grayish-blue);
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.text h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .text h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+}
+
+.description {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 2.3rem;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.price-container p:first-child {
+    font-family: 'Fraunces', serif;;
+    color: var(--dark-cyan);
+    font-size: 2.8rem;
+}
+
+.price-container p:last-child {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    color: var(--dark-grayish-blue);
+    text-decoration:line-through;
+}
+
+.text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--white);
+    background-color: var(--dark-cyan);
+    border: none;
+    border-radius: 8px;
+}
+
+.text button .icon {
+    background-image: url('./images/icon-cart.svg');
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 1rem;
+}
+
+.text button:hover {
+    cursor: pointer;
+    background-color: var(--darker-cyan);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
